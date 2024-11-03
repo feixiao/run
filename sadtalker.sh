@@ -17,6 +17,8 @@ fi
 export AUDUIO_FILE=$1
 export IMAGE_FILE=$2
 export RESULT_FILE=$3
+export KMP_DUPLICATE_LIB_OK=TRUE
+export PYTORCH_ENABLE_MPS_FALLBACK=1
 
 # export AUDUIO_FILE=/Users/frank/forbuild/SadTalker/examples/driven_audio/chinese_news.wav
 # export IMAGE_FILE=/Users/frank/forbuild/SadTalker/examples/source_image/art_0.png
